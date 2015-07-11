@@ -200,7 +200,9 @@ gulp.task('serve', ['styles', 'elements', 'images'], function () {
       routes: {
         '/bower_components': 'bower_components'
       }
-    }
+    },
+    port: process.env.PORT,
+    host: process.env.IP
   });
 
   gulp.watch(['app/**/*.html'], reload);
