@@ -1,1 +1,1 @@
-Contact management applicaiton in Polymer
+Odoo Dashboard using Polymer
